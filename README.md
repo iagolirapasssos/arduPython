@@ -32,7 +32,7 @@ Usagem
 Basic usage::
 
     >>> from pyfirmata import Arduino, util
-    >>> board = Arduino('/dev/tty.usbserial-A6008rIF')
+    >>> board = Arduino()
     >>> board.digital[13].write(1)
 
 To use analog ports, it is probably handy to start an iterator thread.
